@@ -1,5 +1,7 @@
 package tiendaIndianaJeans;
 
-public class Exportador {
+public abstract class Exportador {
 
+	protected abstract void exportar();
+	
 }

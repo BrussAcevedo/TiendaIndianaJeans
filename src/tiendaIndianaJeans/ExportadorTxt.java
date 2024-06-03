@@ -1,5 +1,5 @@
 package tiendaIndianaJeans;
 
-public class ExportadorTxt {
+public class ExportadorTxt extends ExportarTxt {
 
 }
