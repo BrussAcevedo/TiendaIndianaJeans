@@ -4,26 +4,38 @@ import java.util.ArrayList;
 
 public class ProductoServicio {
 
-	private ArrayList<String> listaProductos;
+	private ArrayList<Producto> listaProductos;
 
-	public ProductoServicio(ArrayList<String> listaProductos) {
+	public ProductoServicio(ArrayList<Producto> listaProductos) {
 		
 		this.listaProductos = listaProductos;
 	}
 
-	public ArrayList<String> getListaProductos() {
+	public ArrayList<Producto> getListaProductos() {
 		return listaProductos;
 	}
 
-	public void setListaProductos(ArrayList<String> listaProductos) {
+	public void setListaProductos(ArrayList<Producto> listaProductos) {
 		this.listaProductos = listaProductos;
 	}
 
-	public void listarProductos() {
+	
+	
+	public static void listarProductos(ArrayList<Producto>lista) {
+		
+		for (Producto producto : lista) {
+	        System.out.println("Producto= "+producto.toString());
+	    }System.out.println("");
+	    
 		
 	}
 	
-	public void agregarProductos() {
+	
+	public static ArrayList<Producto> agregarProductos(Producto entradaProducto) {
+		ArrayList<Producto> productoALista = new ArrayList<>();
 		
+		productoALista.add(entradaProducto);
+		
+		return productoALista;
 	}
 }
