@@ -79,7 +79,7 @@ package tiendaIndianaJeans;
 
 	    @Override
 	    public String toString() {
-	        return articulo + "," + precio + "," + descripcion + ", " + codigo + ", " + talla + ", " + marca + ", " + color ;
+	        return articulo + "," + precio + "," + descripcion + "," + codigo + "," + talla + "," + marca + "," + color ;
 	    }
 	}
 	
