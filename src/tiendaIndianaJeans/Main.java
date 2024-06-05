@@ -43,7 +43,7 @@ public class Main {
 
 			case 3: { // Exportar datos
 				productosExportados = Menu.exportarDatos(productos);
-				System.out.println("Flag6" + productosExportados.toString());
+			
 				break;
 			}
 			case 4: { // Salir del programa

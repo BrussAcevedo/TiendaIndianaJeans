@@ -70,6 +70,7 @@ public class ExportadorTxt extends Exportador {
 		File dir = new File (this.ubicacionDir+"/"+this.nombreDir);
 		File arch = new File (dir+"/"+nombreArchivo+".txt");
 		ArrayList<Producto> listaTemp = new ArrayList<>();
+		
 		System.out.println(listaNoExportada.toString());
 		listaExistente.addAll(listaNoExportada);
 		
